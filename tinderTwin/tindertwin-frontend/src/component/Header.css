@@ -1,0 +1,11 @@
+.logoImg{
+    width: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    z-index: 100;
+    border-bottom: 2px solid #f9f9f9;
+}

@@ -1,0 +1,38 @@
+.card{
+    position: relative;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: all 400ms;
+    background-repeat: no-repeat;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.Tindercards-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    height: 64vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.Tindercards-cont img{
+    height: 100%;
+}
+.swipe{
+    position: absolute;
+}
+.Tindercards-cont h3{
+    color: white;
+    background-color: #861657;
+    background-image: linear-gradient(326deg, #861657 0%, #f76d60 74%);
+    padding: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,7 @@
+body{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  background-color: white;
+  overflow: scroll;
+}
